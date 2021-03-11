@@ -31,3 +31,10 @@ year={2020},
 publisher={O'Reilly Media, Incorporated}
 }
 ```
+
+## Setup
+* `python3 -m venv venv` 
+* `source venv/bin/activate`
+* `pip3 install -r requirements.txt`
+* `venv/bin/jupyter labextension install @jupyter-widgets/jupyterlab-manager`
+* `venv/bin/jupyter lab`
